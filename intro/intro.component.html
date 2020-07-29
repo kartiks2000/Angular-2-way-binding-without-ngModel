@@ -1,0 +1,5 @@
+<h1 class="colorit">Hello this is 2-way-binding without using "ngModel".
+    Actually 2-way-data binding / ngModel  is a combination of property binding and event binding.
+</h1>
+<input type="text" [value]="txt" (input)="showtext($event)"/>
+<h2>{{txt}}</h2>
